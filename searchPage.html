@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <!-- Image Logo of the web page  -->
+    <link rel="icon" href="./ImagesFolder/breakfast.jpg" />
+    <!-- Title of the page -->
+    <title>Search Page</title>
+    <!-- Linking the External CSS file -->
+    <link rel="stylesheet" href="./searchPage.css" />
+</head>
+<body>
+    <div>
+        <!-- Navbar - Display on the top of the site-->
+        <nav class="navbar">
+                <div class="logo">
+                    <div class="logotext">e!</div>
+                </div>
+                <div class="buttons">
+                    <button class="login-btn">Login</button>
+                    <button class="createAcc-btn">Create An Account</button>
+                </div>
+        </nav>
+        <!-- Web site heading -->
+        <div class="site-heading">Breakfast Places in Mumbai</div>
+        <!--Web page layout divided into 2 sections  -->
+        <div style="padding-left: 15px;">
+            <!-- Div For Filters -->
+            <div class="filterBlock">
+                <div class="filter-options">
+                    <div class="filterText">Filters</div>
+                    <div class="selectLocation">Select Location</div>
+                    <!-- Location Drop Down -->
+                    <select class="locDropDown">
+                        <option>Select</option>
+                        <option>Delhi</option>
+                        <option>Haryana</option>
+                    </select>
+                    <!-- Cuisine Checkboxes -->
+                    <div class="cuisineText">Cuisine</div>
+                    <div>
+                        <input type="checkbox" />
+                        <span class="checkbox-items">North Indian</span>
+                    </div>
+                    <div>
+                        <input type="checkbox" checked/>
+                        <span class="checkbox-items">South Indian</span>
+                    </div>
+                    <div>
+                        <input type="checkbox" checked/>
+                        <span class="checkbox-items">Chineese</span>
+                    </div>
+                    <div>
+                        <input type="checkbox" />
+                        <span class="checkbox-items">Fast Food</span>
+                    </div>
+                    <div>
+                        <input type="checkbox" />
+                        <span class="checkbox-items">Street Food</span>
+                    </div>
+                    <!-- Cost for Two using radio button options -->
+                    <div class="costForTwoText">Cost For Two</div>
+                    <div>
+                        <input type="radio" name="costForTwo"/>
+                        <span class="checkbox-items">Less than &#8377; 500</span>
+                    </div>
+                    <div>
+                        <input type="radio" name="costForTwo"/>
+                        <span class="checkbox-items">&#8377; 500 to &#8377; 1000</span>
+                    </div>
+                    <div>
+                        <input type="radio" name="costForTwo"/>
+                        <span class="checkbox-items">&#8377; 1000 to &#8377; 1500</span>
+                    </div>
+                    <div>
+                        <input type="radio" name="costForTwo"/>
+                        <span class="checkbox-items">&#8377; 1500 to &#8377; 2000</span>
+                    </div>
+                    <div>
+                        <input type="radio" name="costForTwo"/>
+                        <span class="checkbox-items">&#8377; 2000 +</span>
+                    </div>
+                    <!-- Sort radio button options -->
+                    <div class="sortText">Sort</div>
+                    <div>
+                        <input type="radio" id="lowToHigh" name="sort"/>
+                        <span class="checkbox-items" for="lowToHigh">Price low to high</span>
+                    </div>
+                    <div>
+                        <input type="radio" id="highToLow" name="sort"/>
+                        <span class="checkbox-items" for="highToLow">Price high to low</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Div For Items block-->
+            <div class="itemsBlock">
+                <!-- First Item Block -->
+                <div class="item">
+                    <div>
+                        <div class="verticalItem">
+                            <img class="img" src="./ImagesFolder/breakfast.jpg" alt="Image not found"/>
+                        </div>
+                        <div class="resItem">
+                            <div class="rest-name">The Big Chill Cakery</div>
+                            <div class="rest-location">FORT</div>
+                            <div class="rest-address">Shop 1, Plot D, Samruddhi Complex, Chincholi</div>
+                        </div>
+                    </div>
+                    <hr />
+                    <div>
+                        <div class="margin-left">
+                            <div class="Bakery">CUISINES : </div>
+                            <div class="Bakery">COST FOR TWO :  </div>
+                        </div>
+                        <div class="margin-right">
+                            <div class="Bakery res">Bakery</div>
+                            <div class="Bakery res">&#8377 700</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sceound Item Block -->
+                <div class="item">
+                    <div>
+                        <div class="verticalItem">
+                            <img class="img" src="./ImagesFolder/breakfast.jpg" alt="Image not found"/>
+                        </div>
+                        <div class="resItem">
+                            <div class="rest-name">The Big Chill Cakery</div>
+                            <div class="rest-location">FORT</div>
+                            <div class="rest-address">Shop 1, Plot D, Samruddhi Complex, Chincholi</div>
+                        </div>
+                    </div>
+                    <hr />
+                    <div>
+                        <div class="margin-left">
+                            <div class="Bakery">CUISINES :</div>
+                            <div class="Bakery">COST FOR TWO : </div>
+                        </div>
+                        <div class="margin-right">
+                            <div class="Bakery res">Bakery</div>
+                            <div class="Bakery res">&#8377 700</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pagination Block  -->
+                <div class="pagination">
+                    <a href="#">&lt;</a>
+                    <a href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#">&gt;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

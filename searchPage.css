@@ -1,0 +1,363 @@
+body{
+    padding: 0%;
+    line-height: 1;
+}
+
+.navbar{
+    height: 70px;
+    background-color: #CE0505;
+}
+
+.logo{
+    top: 15px;
+    left: 102px;
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    border-radius: 1em;
+    font: normal normal 600 33px/50px Poppins;
+    letter-spacing: 0px;
+    color: #EB2929;
+    opacity: 1;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.buttons{
+    float: right;
+}
+
+.buttons>button{
+    background-color: #CE0505;
+    color: white;
+    top: 29px;
+    margin-top: 15px;
+    margin-right: 90px;
+    margin-bottom: 15px;
+    font: normal normal medium 16px/25px Poppins;
+    letter-spacing: 0px;
+}
+
+.login-btn{
+    border: none;
+    left: 1012px;
+    width: 1%;
+    height: 23px;
+    font: normal normal medium 16px/25px Poppins;
+}
+
+.createAcc-btn{
+    border: white 1px solid;
+    height: 43px;
+    left: 1099px;
+    width: 152px;
+    border-radius: 3px;
+    font: normal normal medium 16px/25px Poppins;
+}
+
+.site-heading{
+    color: #192F60;
+    font-size: 30px;
+    top: 117px;
+    left: 113px;
+    width: 514px;
+    height: 51px;
+    margin-left: 100px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: left;
+    font: normal normal bold 36px/55px Poppins;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+.filter-options {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.29);
+    background-color: #ffffff;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    margin-right: 90px;
+    margin-left: 90px;
+    min-width: 210px;
+    height: 525px;
+}
+
+.filterText{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    padding-top: 20px;
+}
+
+.selectLocation{
+    height: 20px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin-top: 30px;
+}
+
+.locDropDown{
+    width: 180px;
+    height: 35px;
+    border: 1px solid #8C96AB;
+    border-radius: 5px;
+    margin-top: 10px;
+    opacity: 1;
+}
+
+.cuisineText{
+    margin-top: 12px;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0px;
+    line-height: 1.5;
+    color: #192F60;
+    opacity: 1;
+}
+
+.checkbox-items{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+    text-align: left;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+.checkbox{
+    top: 466px;
+    left: 140px;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #3A5075;
+    border-radius: 2px;
+    opacity: 1;
+}
+
+.costForTwoText{
+    text-align: left;
+    font: normal normal normal 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+    margin-top: 12px;
+}
+
+.sortText{
+    text-align: left;
+    font: normal normal 600 18px/27px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+    margin-top: 12px;
+}
+
+ .item{
+    width: 90%;
+    height: 230px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.29);
+    background-color: #ffffff;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.img{
+    width: 120px;
+    height: 120px;
+    margin-left: 20%;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.margin-right , .margin-left{
+    margin-left: 5%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.itemsBlock , .verticalItem {
+    vertical-align: top;
+}
+
+.rest-name {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    display: inline-block;
+    /* padding-left: 1px; */
+    margin-top: 20px;
+    margin-right: 80px;
+}
+
+.rest-location {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.rest-address {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+}
+
+.Bakery {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+}
+
+.res{
+    color: #192f60;
+}
+
+.filterBlock, .verticalItem{
+    display: inline-block;
+    width: 28%;
+}
+
+.itemsBlock, .resItem{
+    display: inline-block;
+    width: 68%;
+}
+
+.verticalItem, .resItem{
+    display: inline-block;
+}
+
+.pagination {
+    display: inline-block;
+    margin-left: 275px;
+    margin-top: 10px;
+}
+
+.pagination a {
+    color: gray;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 2px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #8C96AB;
+    border-radius: 7px;
+    opacity: 1;
+}
+
+@media only screen and (max-width: 600px) {
+    .item {
+        width: 160%;
+        height: 200px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: #ffffff;
+        margin-bottom: 15px;
+    }
+    .filter-options {
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: #ffffff;
+        padding-left: 30px;
+        margin-bottom: 10px;
+        min-width: 450px;
+    }
+    .filterBlock, .verticalItem{
+        display: inline-block;
+        width: 28%;
+    }
+    
+    .itemsBlock, .resItem{
+        display: inline-block;
+        width: 68%;
+    }
+    
+    .rest-name {
+        font-family: Poppins;
+        font-size: 30px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.53;
+        letter-spacing: normal;
+        text-align: left;
+        color: #192f60;
+        padding-left: 35px;
+    }
+    .rest-location {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.88;
+        letter-spacing: normal;
+        text-align: left;
+        color: #192f60;
+        padding-left: 35px;
+    }
+    .rest-address {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.88;
+        letter-spacing: normal;
+        text-align: left;
+        color: #636f88;
+        padding-left: 35px;
+    }
+    .pagination {
+        display: inline-block;
+        margin-top: 25px;
+        width: 380px;
+        margin-left: 50px;
+    }
+}
